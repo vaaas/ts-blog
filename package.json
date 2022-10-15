@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"start": "npm run build",
+		"build": "ts-node index.ts",
+		"serve": "cd public && python3 -m http.server"
+	},
+	"dependencies": {
+		"@types/node": "^18.6.4",
+		"fast-xml-parser": "^4.0.11",
+		"fpts": "github:vaaas/fpts"
+	}
+}

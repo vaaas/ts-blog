@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"lib": ["ES2022", "dom"],
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"target": "ESNext",
+		"moduleResolution": "Node",
+		"module": "CommonJS"
+	}
+}
